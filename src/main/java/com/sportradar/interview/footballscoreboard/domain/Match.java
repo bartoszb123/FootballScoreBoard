@@ -4,7 +4,7 @@ import java.time.Instant;
 import java.util.Objects;
 
 
-public final class Match {
+public class Match {
 
     private final Instant startTime;
     private final String homeTeam;
