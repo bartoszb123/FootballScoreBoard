@@ -4,6 +4,7 @@ import com.sportradar.interview.footballscoreboard.domain.Match;
 import jakarta.validation.constraints.NotNull;
 
 import java.util.List;
+import java.util.Map;
 
 public interface ScoreBoard {
 
@@ -41,4 +42,6 @@ public interface ScoreBoard {
      * @return Unmodifiable list of ongoing matches.
      */
     List<Match> getCurrentMatches();
+
+    Map<String, Integer> getSummaryScore();
 }
